@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <title> Pseude class selector </title>
+<style>
+/* Unvisited link */
+      a:link{
+      color:red;
+      }
+/* Visited link */
+      a:visited{
+      color:green;
+      }
+/* Mouse over link */
+      a:hover{
+      color:hotpink;
+      }
+/* Selected link */
+      a:active{
+      colro:blue;
+      }
+</style>
+</head>
+<body>
+    <p><b><a href="default.asp" target="_blink">This is a link </a></b></p>
+    <p><b>Note:</b>a:hover must come afer a:link and a:visited in the css definition in order to be effective.
+    </p>
+    <p><b>Note:</b>a:active must come after a:hover  in the css definition in order to be effective.</p>
+</body>
+</html>

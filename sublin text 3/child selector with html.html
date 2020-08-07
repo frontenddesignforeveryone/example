@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Child Selector </title>
+<style>
+/* Child selector.It will select all direct child element of a child element*/
+       div > p{
+           background-color:yellow;
+       }
+</style>
+</head>
+<body>
+<div>
+    <p> Paragraph 1 in the div.</p>
+    <p> Paragraph 2 in the div.</p>
+    <!-- Not a direct child -->
+    <section><p>Paragraph 3 in the div </p></section>
+    <p> Paragraph 4 in the div. </p>
+    </div>
+    <!-- not element of div -->
+    <p> Paragraph 5 not in div.</p>
+    <p> Paragraph 6 not in div.</p>
+</body>
+</html>
